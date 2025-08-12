@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <style>
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 8px 30px rgba(2, 6, 23, 0.08);
+      }
+      .top {
+        display: flex;
+        gap: 20px;
+      }
+      .photo {
+        width: 140px;
+        height: 140px;
+        border-radius: 12px;
+        background: gray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .personal {
+        flex: 1;
+      }
+      h1 {
+        margin: 0;
+        font-size: 20px;
+      }
+      .personalinfo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 18px;
+      }
+      table {
+        width: 80%;
+        border-collapse: collapse;
+      }
+      .edu {
+        border: 1px solid;
+      }
+      .skillsection{
+        display:grid;
+        grid-template-columns: auto auto auto auto;      }
+      
+    .profileimage{
+        height: 100%;
+        width: 100%;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container" id="biodata">
+      <div class="top">
+        <div class="photo">
+            <img class="profileimage" src="profilephoto.jpeg" alt="Photo">
+        </div>
+        <div class="personal">
+          <h1>Ragini Ajay Pharande</h1>
+          Designation - Front-end Developer
+        </div>
+      </div>
+      <div class="personalinfo">
+        <div class="personalDetails">
+          <h2 style="font-size: 20px">Personal Details</h2>
+          <table>
+            <tr>
+              <td>Full Name</td>
+              <td>Ragini Aja Pharande</td>
+            </tr>
+            <tr>
+              <td>Date of Birth</td>
+              <td>04 Sept 1984</td>
+            </tr>
+            <tr>
+              <td>Age</td>
+              <td>25</td>
+            </tr>
+            <tr>
+              <td>Gender</td>
+              <td>Female</td>
+            </tr>
+            <tr>
+              <td>Marital Status</td>
+              <td>Single</td>
+            </tr>
+            <tr>
+              <td>Languages</td>
+              <td>English, Marathi, Hindi</td>
+            </tr>
+          </table>
+        </div>
+        <div class="contactDetails">
+          <h2 style="font-size: 20px">Contact & Address</h2>
+          <table>
+            <tr>
+              <td>Email</td>
+              <td>raginiapharande@gmail.com</td>
+            </tr>
+            <tr>
+              <td>Phone</td>
+              <td>+91 988110636</td>
+            </tr>
+            <tr>
+              <td>Address</td>
+              <td>Hadapsar, Pune, Maharashtra - 411028</td>
+            </tr>
+            <tr>
+              <td>Nationality</td>
+              <td>Indian</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="educational">
+        <h2 style="font-size: 20px">Educational Qualifications</h2>
+        <table class="edu">
+          <tr class="edu">
+            <th class="edu">Exam</th>
+            <th class="edu">College</th>
+            <th class="edu">% of Marks</th>
+          </tr>
+          <tr class="edu">
+            <td class="edu">BCA</td>
+            <td class="edu">KSOU University</td>
+            <td class="edu">63%</td>
+          </tr>
+        </table>
+      </div>
+      <div class="skillsection">
+        <div class="skills">
+          <h2 style="font-size: 20px">Skills</h2>
+          <input type="checkbox" id="HTML" name="HTML" value="HTML" />
+          <label for="HTML"> HTML</label><br />
+          <input type="checkbox" id="CSS" name="CSS" value="CSS" />
+          <label for="CSS"> CSS</label><br />
+          <input
+            type="checkbox"
+            id="JavaScript"
+            name="JavaScript"
+            value="JavaScript"
+          />
+          <label for="JavaScript"> JavaScript</label><br />
+          <input type="checkbox" id="React" name="React" value="React" />
+          <label for="React"> React JS</label><br />
+        </div>
+        <div class="hobby">
+          <h2 style="font-size: 20px">Hobbies & Interests</h2>
+          <input type="checkbox" id="Reading" name="Reading" value="Reading" />
+          <label for="Reading"> Reading</label><br />
+          <input type="checkbox" id="Design" name="Design" value="Design" />
+          <label for="Design"> Design</label><br />
+          <input type="checkbox" id="Traveling" name="Traveling" value="Traveling"/>
+          <label for="Traveling"> Traveling</label><br />
+        </div>
+      </div>
+        <div class="hobby">
+          <h2 style="font-size: 20px">Work Experience</h2>
+            <label> Company Name</label><br />
+            <label> Designation</label><br />
+            <label> Duration</label><br />
+            <label> Key Responsibilities</label><br />
+        </div>
+    </div>
+  </body>
+</html>
